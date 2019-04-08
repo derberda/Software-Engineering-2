@@ -14,16 +14,34 @@ html, body{
   background-image: linear-gradient(to bottom right, #2637FF, #B523E8);
 }
 h1{
-
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.login{
+  float: right;
 }
 .loginInfo{
-
+  color: #4AE85D;
 }
+.loginInfo:hover{
+  cursor: pointer;
+}
+.loginPic{
+  height: 30px;
+  width: auto;
+  margin-right: 50px;
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
 .list{
   background: #fff;
   border-radius: 10px;
   width: 700px;
-  height: 400px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 5px 25px #2b2b2b;
@@ -43,4 +61,10 @@ li{
 }
 .message{
   font-weight: bold;
+}
+#profilePic{
+   width: 40px;
+   height: 40px;
+   margin-top: 25px;
+
 }
