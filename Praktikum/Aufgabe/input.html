@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="input.css">
+    </head>
+    <body>
+        <form action="list.html" method="POST" id="inputForm">
+            <fieldset>
+                <textarea rows="4" cols="50" name="text" form="inputForm"
+                    placeholder="Enter your message in here"></textarea>
+                <br>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" size="30" maxlength="30"
+                    required="required" autofocus="autofocus"
+                    placeholder="Location">
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" size="30" maxlength="30"
+                    required="required" autofocus="autofocus"
+                    placeholder="Date">
+            </fieldset>
+
+            <fieldset>
+                <input type="submit" value="SUBMIT">
+            </fieldset>
+        </form>
+    </body>
+</html>
