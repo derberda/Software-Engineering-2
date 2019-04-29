@@ -1,0 +1,60 @@
+AUFGABE 1:
+
+A.)Wasserfallmodell
+1) Beim Wasserfallmodell führt man eine Softwarevalidierung durch, bei der durch mehrere Tests (Komponententest, 
+   Integrationstest, Systemtest, Abnahmetest) sichergestellt wird, dass die Spezifikationen der des Kunden entspricht.
+   Hierbei kann es jedoch auch zu einer Rückkopplung von einer Phase zur vorheriger kommen.
+2) Jede Phase wird in der gesamten Breite durchgeführt und danach gibt es einen sequentiellen Durchlauf der einzelnen Schritte.
+3) Eine frühzeitige Rückmeldung vom Kunden ist wichtig. Nach jedem fertigen Schritt kann der Kunde druch Absprache mit dem 
+   Team Einfluss ausüben. Ein Beurteilen des Entwurfes könnte dem Kunden eher schwer fallen.
+4) Wird das Waserfallmodell streng sequentiell durchgeführt, kann durch Meilensteine der Fortschritt gut anhand des Erreichen
+   eines Meilensteins gemessen werden.
+5) Das Wasserfallmodell ist nicht für Großprojekte geeignet.
+6) Für jede Phase wird eine Dokumentation erzeugt, die eventuell später noch abgeändert werden müssen.
+7) Da es nicht für Großprojekte ausgelegt ist, ist es nicht für sehr komplexe Projekte geeignet.
+8) Die iterative Vorgehensweise wird beim Wasserfallmodell nicht unterstützt. Wird jedoch bei der Softwarevalidierung benutzt.
+9) Eine inkrementelle Entwicklung ist beim Wasserfallmodell vorgesehen.
+10) Bei der Softwarearchitektur handelt es sich um einen Teilprozess, der in der zweiten Phase definiert und ausgearbeitet wird.
+
+B.)Rational Unified Process
+1) Die Qualitätssicherung spielt beim RUP-Modell eine hohe Rolle, denn hier werden Qualitätsmerkmale definiert, 
+   die vom Softwaresystem erreicht werden sollen. Hierfür gibt es eine gesonderte Phase. Für die Teststrategien 
+   gibt es einen eigenen Punkt, der einen Arbeitsablauf darstellt. HIerbei werden die Ergebnisse der Implementierung überprüft.
+2) Das Projektteam stimmt sich durch kleine Releases ab.
+3) Der Kunde hat keine Auswirkung auf die Entwicklungsphase. Die Auslieferung eines Produkts erfolgt am Ende eines Zyklus.
+4) Nach jedem Release wird eine Iteartion durchgeführt, die ein mess- und bewertbares Ergebnis liefern.
+5) Kann für alle Projektgrößen verwendet werden, aber bietet sich erst für projekte mit einer gewissen Größe an
+   (z. B. für Projekte mit sehr vielen Beteiligten).
+6) 
+7) Da das Modell für große Projekte vorgesehen ist, ist davon auszugehen, dass es auch für komplexere Projekte geeignet ist.
+8) Eine iterative Vorgehensweise wird beim RUP-Modell unterstützt. Die Phasen sind durch die einzelnen Releases abgegrenzt.
+9) Beim RUP-Modell ist eine inkremetelle Entwicklung vorgesehen.
+10) Bei der Entwurf-Phase wird ein Architekturrahmen festgelegt, der jedeoch durch eine Architektur-Iteration überarbeitet werden kann.
+
+C.)Extreme Programming 
+1) Beim Extreme Programming gehören Testfunktionalität und -automatisierung zu den Grundprinzipien. Über die Tests
+   wird eine Qualitätssicherung und eine Einbeziehung des Kunden gewährleistet.
+2) Durch eine direkte Kommunikation zwischen allen Projektbeteiligten, mit dem Auftraggeber und Kunden wird sich abgestimmt.
+3) Der Kunde kann permanent Einfluss ausüben, da dieser immer in einer direkten Kommunikation zum Team steht.
+4) Durch kleine Releases und regelmäßige Tests wird eine Fortschrittskontrolle im Team gewährleistet.
+5) Das Modell ist eher für große Projekte geeignet, da sich das gesamte projekt in kleine Releases unterteilen lässt. 
+   Dies wäre bei kleineren Projekten nicht von Nöten.
+6) Jeder muss sein Teil dokumentieren.
+7) Das Modell ist eher komplex, da jeder mit jedem in einer direkten Kommunikation steht.
+8) Es wird eine iterative Vorgehensweise durch die kleinen Relases unterstützt.
+9) Eine inkrementelle Vorgehensweise ist vorgesehen, da es zu den Grundprinzipien gehört.
+10) Die Software-Architektur entsteht während der Entwicklung und spielt dadurch keine hervorgehobene Rolle.
+
+D.)Scrum
+1) Durch Sprints und regelmäßige Meetings werden Probleme und Fortschritte behandelt/besprochen. Die Schnittstelle an sich wird durch die Absprache mit dem Kunden verbessert.
+2) Bei Scrum werden täglich kurze Treffen vereinbart, bei denen man sich austauscht.
+3) Der Kunde hat die Rolle des Stakeholders inne und steht mit dem Product Owner oder Scrum Master im engen Kontakt.
+4) Sprint-Ziele dienen als Fortschrittskontrolle, die durch einen Produkt-Backlog vorgegeben werden. Zusätzlich zu den großen vier wöchentlichen Sprint-Meetings gibt es kleinere, tägliche Meetings.
+5) Scrum eignet sich für alle Projektgrößen, da es individuell anpassbar ist.
+6) Die Dokumentation wird von dafür zuständigen Mitarbeitern verfasst oder vom Scrum Master übernommen.
+7) Scrum ermöglicht durch das breite Auffächern eines Projekts in Produkt-Backlogs und Sprints eine hohhe Komplexität. Diese hat trotzdem eine klare Struktur.
+8) Durch Sprints und täglich kleine Treffen ist ein iteratives Vorgehen möglich.
+9) Das System wird hier auf einzelne Sprints angewendet.
+10) Im Scrum spielt die Architektur auch eine große Rolle, obwohl sie vom Entwicklerteam regelmäßig überprüft, angepasst und weiterentwickelt wird. 
+
+AUFGABE 2:
