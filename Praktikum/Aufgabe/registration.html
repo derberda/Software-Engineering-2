@@ -6,7 +6,26 @@
         <link rel="stylesheet" href="registration.css">
     </head>
     <body>
-        <form action="/input.html" method="POST">
+        <ul>
+            <li>
+                <a href="list.html">Nachrichten</a>
+            </li>
+
+            <li>
+                <a href="input.html">Neue Nachricht</a>
+            </li>
+            <li>
+                <a href="#">Registrierung</a>
+            </li>
+            <li class="logIn">
+                <a href="#">nicht angemeldet</a>
+            </li>
+        </ul>
+        <header>
+            <h1>REGISTRATION</h1> 
+        </header>
+
+        <form action="input.html" method="POST">
             <fieldset>
                 <label for="fullname">Fullname:</label>
                 <input type="text" id="fullname" size="30" maxlength="30"
@@ -14,19 +33,20 @@
                     placeholder="Fullname">
                 <label for="email">Email:</label>
                 <input type="email" id="email" size="30" maxlength="30"
-                    required="required" autofocus="autofocus"
+                    required="required"
                     placeholder="Email">
                 <label for="username">Username:</label>
                 <input type="text" id="username" size="30" maxlength="30"
-                    required="required" autofocus="autofocus"
+                    required="required"
                     placeholder="Username">
                 <label for="password">Password:</label>
-                <input type="password" id="password" size="30" maxlength="30"
-                    required="required" autofocus="autofocus"
+                <input type="password" id="password" size="30"
+                    maxlength="30"
+                    required="required"
                     placeholder="Password">
             </fieldset>
             <fieldset>
-                <input type="submit" value="SUBMIT">
+                <input id="submit" type="submit" value="SUBMIT">
             </fieldset>
         </form>
     </body>

@@ -6,20 +6,40 @@
         <link rel="stylesheet" href="input.css">
     </head>
     <body>
+        <ul>
+            <li>
+                <a href="list.html">Nachrichten</a>
+            </li>
+
+            <li>
+                <a href="#">Neue Nachricht</a>
+            </li>
+            <li>
+                <a href="registration.html">Registrierung</a>
+            </li>
+            <li class="logIn">
+                <a href="#">nicht angemeldet</a>
+            </li>
+        </ul>
+        <header>
+            <h1>INPUT</h1>
+        </header>
+
         <form action="list.html" method="POST" id="inputForm">
             <fieldset>
-                <textarea rows="4" cols="50" name="text" form="inputForm"
+                <textarea id="textInput" rows="4" cols="50" name="text"
+                    form="inputForm" autofocus="autofocus"
                     placeholder="Enter your message in here"></textarea>
                 <br>
 
                 <label for="location">Location:</label>
                 <input type="text" id="location" size="30" maxlength="30"
-                    required="required" autofocus="autofocus"
+                    required="required"
                     placeholder="Location">
 
                 <label for="date">Date:</label>
                 <input type="date" id="date" size="30" maxlength="30"
-                    required="required" autofocus="autofocus"
+                    required="required"
                     placeholder="Date">
             </fieldset>
 
