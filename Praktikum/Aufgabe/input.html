@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="input.css">
+        <link rel="stylesheet" href="jquery.powertip.css">
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script
+            src="https://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+        <script src="myScripts.js"></script>
     </head>
     <body>
         <ul>
@@ -29,7 +35,9 @@
             <fieldset>
                 <textarea id="textInput" rows="4" cols="50" name="text"
                     form="inputForm" autofocus="autofocus"
-                    placeholder="Enter your message in here"></textarea>
+                    placeholder="Enter your message in here">
+                </textarea>
+                <p>Zeichen: <span class="counter">0</span></p>
                 <br>
 
                 <label for="location">Location:</label>

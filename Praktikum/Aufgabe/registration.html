@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="registration.css">
+        <link rel="stylesheet" href="jquery.powertip.css">
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script
+            src="https://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+        <script src="myScripts.js"></script>
     </head>
     <body>
         <ul>
@@ -22,25 +28,29 @@
             </li>
         </ul>
         <header>
-            <h1>REGISTRATION</h1> 
+            <h1>REGISTRATION</h1>
         </header>
 
         <form action="input.html" method="POST">
             <fieldset>
                 <label for="fullname">Fullname:</label>
-                <input type="text" id="fullname" size="30" maxlength="30"
+                <input title="Enter your full name" type="text" id="fullname"
+                    size="30" maxlength="30"
                     required="required" autofocus="autofocus"
                     placeholder="Fullname">
                 <label for="email">Email:</label>
-                <input type="email" id="email" size="30" maxlength="30"
+                <input title="Enter your E-mail" type="email" id="email"
+                    size="30" maxlength="30"
                     required="required"
                     placeholder="Email">
                 <label for="username">Username:</label>
-                <input type="text" id="username" size="30" maxlength="30"
+                <input title="Enter your username" type="text" id="username"
+                    size="30" maxlength="30"
                     required="required"
                     placeholder="Username">
                 <label for="password">Password:</label>
-                <input type="password" id="password" size="30"
+                <input title="Enter your password" type="password" id="password"
+                    size="30"
                     maxlength="30"
                     required="required"
                     placeholder="Password">
